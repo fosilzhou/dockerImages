@@ -1,5 +1,8 @@
 #!/bin/bash
 
+docker login registry.cn-shenzhen.aliyuncs.com -u $ALIYUN_USERNAME -p $ALIYUN_PASSWORD
+docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+
 for imagepath in $(cat ./imagepath.txt)
 do
   imagename=$(echo $imagepath | awk -F '/' '{print $NF}')

@@ -4,6 +4,4 @@ services:
 - docker
 
 script:
-- docker login -u $ALIYUN_USERNAME registry.cn-shenzhen.aliyuncs.com -p $ALIYUN_PASSWORD
-- docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 - bash push-images.sh
