@@ -31,5 +31,5 @@ ikubernetes/stress-ng:v1
 mysql:5.7
 redis:5.0
 centos:7
-nextcloud:18
+nextcloud
 
