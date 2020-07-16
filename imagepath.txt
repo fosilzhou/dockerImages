@@ -1,1 +1,8 @@
 mysql:5.7
+nacos-server
+consul:1.7
+zookeeper:3.5
+rabbitmq:3.8.5-management
+wurstmeister/kafka
+wurstmeister/zookeeper
+sheepkiller/kafka-manager
